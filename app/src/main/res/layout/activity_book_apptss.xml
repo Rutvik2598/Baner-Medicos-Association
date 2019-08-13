@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookApptss">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <CalendarView
+        android:id="@+id/calender2"
+        android:layout_width="wrap_content"
+        android:layout_height="305dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="32dp"
+        android:maxDate=""
+        android:minDate=""></CalendarView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/calender2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="325dp"
+        android:text="Available time slot:"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/appt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="290dp"
+        android:layout_marginBottom="370dp"
+        android:text="10:00AM"
+        tools:text="10:00AM" />
+
+    <Button
+        android:id="@+id/appt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="166dp"
+        android:layout_marginBottom="371dp"
+        android:text="11:00AM"
+        tools:text="11:00AM" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:background="@color/colorAccent"
+        android:text="Confirm Appointment"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Confirm Appointment" />
+
+    <Button
+        android:id="@+id/appt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/app_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="372dp"
+        android:text="12:00PM"
+        tools:text="12:00PM" />
+
+    <Button
+        android:id="@+id/appt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/app_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="280dp"
+        android:text="04:00PM"
+        tools:text="04:00OM" />
+
+    <Button
+        android:id="@+id/appt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/app_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="281dp"
+        android:text="05:00PM"
+        tools:text="05:00PM" />
+
+    <Button
+        android:id="@+id/appt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/app_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="281dp"
+        android:text="06:00PM"
+        tools:text="06:00PM" />
+
+    <Button
+        android:id="@+id/appt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/app_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="184dp"
+        android:text="07:00PM"
+        tools:text="07:00PM" />
+</RelativeLayout>

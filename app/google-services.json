@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655618754875",
+    "firebase_url": "https://bookingappointment-7b278.firebaseio.com",
+    "project_id": "bookingappointment-7b278",
+    "storage_bucket": "bookingappointment-7b278.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655618754875:android:fd5ae32f8d29941c",
+        "android_client_info": {
+          "package_name": "com.example.bookingappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655618754875-ht65mrl97cnpbpmvii44rqaolb4r47aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookingappointment",
+            "certificate_hash": "23dab811633c550422d1388122645602c18c7f29"
+          }
+        },
+        {
+          "client_id": "655618754875-p279dfv70f05r2r36t6so84n7hkslbio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRz9BYzXS5G3vFMN5pP2nDC4opJoHODYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655618754875-p279dfv70f05r2r36t6so84n7hkslbio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

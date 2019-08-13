@@ -1,0 +1,85 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"
+        ></include>
+
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </android.support.v7.widget.SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="320dp"
+        android:layout_alignTop="@+id/searchView"
+        android:layout_marginTop="50dp"
+        android:layout_alignBottom="@id/recyclerview_id"
+        android:layout_marginBottom="401dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Welcome to BMA"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Baner Balewadi Medicos’ Association, ( BMA ) a registered charitable trust."
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Baner Balewadi Medicos’ Association, a registered charitable trust was established on Doctor’s day 1st July 2016 with the idea of uniting Doctors from all pathies of medicine and come up with something valuable for the community.
+
+The brainchild of Dr.Rajesh Deshpande supported by founder members, this association has grown up to 200 members from all specialties and different pathies of medicine."
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_id"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_alignTop="@+id/app_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
